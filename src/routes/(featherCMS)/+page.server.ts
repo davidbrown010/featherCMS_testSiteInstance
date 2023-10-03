@@ -1,6 +1,6 @@
 export const prerender = true;
 
-import type {Page} from "../globalFeatherCMS/types/page";
+import type {Page} from "../../globalFeatherCMS/types/page";
 
 export async function load() {
 
