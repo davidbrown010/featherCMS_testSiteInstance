@@ -10,7 +10,7 @@
 	<meta name="description" content={meta.description} />
 	<meta name="robots" content={meta.robots} />
 	{#if meta.marketingTags.ga4}
-		<!-- Google tag (gtag.js) -->
+		{@html `<!-- Google tag (gtag.js) -->`}
 		<script
 			async
 			src="https://www.googletagmanager.com/gtag/js?id={meta.marketingTags.ga4}"

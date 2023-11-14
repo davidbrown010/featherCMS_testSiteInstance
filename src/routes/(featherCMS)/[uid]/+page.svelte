@@ -6,10 +6,9 @@
 	import SectionWrapper from '$lib/localFeatherCMS/sections/SectionWrapper.svelte';
 
 	export let data;
-
 </script>
 
-<Head meta={data.page.meta}/>
+<Head meta={data.page.meta} />
 
 {#each data.page.sections as sectionData}
 	<SectionWrapper section={sectionData} />

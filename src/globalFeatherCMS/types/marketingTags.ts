@@ -1,4 +1,4 @@
 export type MarketingTags = {
-    ga4: string | null,
-    searchConsole: string | null
-}
+	ga4: string | null;
+	searchConsole: string | null;
+};

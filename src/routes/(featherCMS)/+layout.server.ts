@@ -22,17 +22,18 @@ export async function load() {
 		]
 	};
 
-	const sitemap = (await getPages()).reduce((agg: Nav, cur) => {
+	const sitemap = (await getPages()).reduce(
+		(agg: Nav, cur) => {
+			agg.navItems.push({
+				label: cur.referenceTitle,
+				url: cur.slug,
+				subItems: null
+			});
 
-		agg.navItems.push({
-			label: cur.referenceTitle,
-			url: cur.slug,
-			subItems: null
-		})
-
-		return agg
-
-	}, { navItems: []} as Nav)
+			return agg;
+		},
+		{ navItems: [] } as Nav
+	);
 
 	return {
 		navigation,

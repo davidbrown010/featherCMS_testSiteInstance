@@ -1,15 +1,13 @@
 <script lang="ts">
-    import { page } from '$app/stores';
-
+	import { page } from '$app/stores';
 </script>
 
-Whoops... looks like that page doesn't exist!
+Whoops... looks like that page doesn't exist! Check out our sitemap below to see where you might
+have been headed
 
-Check out our sitemap below to see where you might have been headed 
-
-<br>
+<br />
 <h2>Sitemap</h2>
 {#each $page.data.sitemap.navItems as sitemapLink}
-    <a href="{sitemapLink.url}">{sitemapLink.label}</a><br>
+	<a href={sitemapLink.url}>{sitemapLink.label}</a><br />
 {/each}
-<br>
+<br />

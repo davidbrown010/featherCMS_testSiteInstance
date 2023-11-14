@@ -1,6 +1,6 @@
-import type { MarketingTags } from "./marketingTags"
+import type { MarketingTags } from './marketingTags';
 
 export type SiteSettings = {
-    name: string,
-    globalMarketingTags: MarketingTags
-}
+	name: string;
+	globalMarketingTags: MarketingTags;
+};
