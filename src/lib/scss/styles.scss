@@ -34,7 +34,6 @@ body {
 }
 
 main {
-
 }
 
 section {
@@ -53,25 +52,25 @@ a {
 }
 
 h1 {
-	font-weight: vars.$font-display-medium
+	font-weight: vars.$font-display-medium;
 }
 
 h3 {
-	font-weight: vars.$font-display-roman
+	font-weight: vars.$font-display-roman;
 }
 
 p {
-	font-weight: vars.$font-display-light
+	font-weight: vars.$font-display-light;
 }
 
 ul,
 ul li,
 ul ul li {
-   margin:0;
-   padding: 0;
-   text-indent: 0;
-   list-style-type: 0;
-   list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	list-style-type: 0;
+	list-style: none;
 }
 
 input,
@@ -79,12 +78,12 @@ optgroup,
 select,
 textarea {
 	outline: none;
-	border:none;
-	background-image:none;
-	background-color:transparent;
+	border: none;
+	background-image: none;
+	background-color: transparent;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
-	box-shadow: none;  
+	box-shadow: none;
 	border-radius: 0;
 	-webkit-appearance: none;
 	-webkit-border-radius: 0;
@@ -97,21 +96,21 @@ textarea {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: transparent; 
+	background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #d3d3ce; 
+	background: #d3d3ce;
 	border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #b9b9b4; 
+	background: #b9b9b4;
 }
 
-img:not([src*=".png"]) {
+img:not([src*='.png']) {
 	background-color: #b3b3b3;
 }
 

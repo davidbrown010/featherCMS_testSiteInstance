@@ -1,7 +1,9 @@
 <script lang="ts">
-    export let navigation: string[]
+	import type { Nav } from '../../../globalFeatherCMS/types/nav';
+
+	export let navigation: Nav;
 </script>
 
-{#each navigation as link}
-    {link} - 
+{#each navigation.navItems as navItem}
+	<a href={navItem.url}>{navItem.label}</a>
 {/each}

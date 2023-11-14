@@ -1,25 +1,25 @@
 {
-    "name": "Featured Products",
-    "id": "featured_products",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Our Products"
-      }
-    ],
-    "max_blocks": 5,
-    "blocks": [
-       {
-         "name": "Slide",
-         "type": "slide",
-         "settings": [
-           {
-             "type": "image_picker",
-             "id": "image",
-             "label": "Image"
-           }
-         ]
-       }
-    ]
-  }
+	"name": "Featured Products",
+	"id": "featured_products",
+	"settings": [
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Our Products"
+		}
+	],
+	"max_blocks": 5,
+	"blocks": [
+		{
+			"name": "Slide",
+			"type": "slide",
+			"settings": [
+				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image"
+				}
+			]
+		}
+	]
+}

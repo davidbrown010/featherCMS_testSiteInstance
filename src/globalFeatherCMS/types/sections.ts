@@ -1,9 +1,10 @@
-export type Sections = Section[]
+export type Sections = Section[];
 
-import type { SchemaSetting } from "../schema/setting";
+import type { SchemaSetting } from '../schema/setting';
 
 type Section = {
-    order: number
-    id: string
-    settings: SchemaSetting[]
-}
+	order: number;
+	template: string;
+	settings: SchemaSetting[] | null;
+	id: number;
+};

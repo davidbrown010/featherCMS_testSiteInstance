@@ -8,7 +8,7 @@
 </script>
 
 <div>
-	<Header navigation={data.navigation}/>
+	<Header navigation={data.navigation} />
 	<main><slot /></main>
 	<Footer />
 </div>
