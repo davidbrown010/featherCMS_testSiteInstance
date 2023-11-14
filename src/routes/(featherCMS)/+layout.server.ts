@@ -11,12 +11,12 @@ export async function load() {
 			},
 			{
 				label: 'About',
-				url: '/about-us',
+				url: '/about',
 				subItems: null
 			},
 			{
 				label: 'Contact',
-				url: '/contact',
+				url: '/contact-us',
 				subItems: null
 			}
 		]

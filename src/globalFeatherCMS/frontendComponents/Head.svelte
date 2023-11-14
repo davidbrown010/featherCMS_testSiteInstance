@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { MetaTags } from '../../../globalFeatherCMS/types/meta';
-	import type { SiteSettings } from '../../../globalFeatherCMS/types/siteSettings';
+	import type { MetaTags } from '../types/meta';
+	import type { SiteSettings } from '../types/siteSettings';
 
 	export let meta: MetaTags;
 </script>

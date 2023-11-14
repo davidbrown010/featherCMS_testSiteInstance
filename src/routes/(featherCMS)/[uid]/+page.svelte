@@ -2,8 +2,8 @@
 	// import type { Nav } from "../../globalFeatherCMS/types/nav";
 	// import type { Page } from "../../globalFeatherCMS/types/page";
 
-	import Head from '$lib/localFeatherCMS/sections_global/Head.svelte';
-	import SectionWrapper from '$lib/localFeatherCMS/sections/SectionWrapper.svelte';
+	import Head from '../../../globalFeatherCMS/frontendComponents/Head.svelte';
+	import SectionWrapper from '../../../globalFeatherCMS/frontendComponents/SectionWrapper.svelte';
 
 	export let data;
 </script>
